@@ -1,0 +1,1 @@
+unused: /home/oceanfish81/workarea/llvm-project/llvm/tools/gollvm/gofrontend/libgo/go/net/smtp/auth.go /home/oceanfish81/workarea/llvm-project/llvm/tools/gollvm/gofrontend/libgo/go/net/smtp/smtp.go crypto/hmac.gox crypto/md5.gox crypto/tls.gox encoding/base64.gox errors.gox fmt.gox io.gox net.gox net/textproto.gox strings.gox

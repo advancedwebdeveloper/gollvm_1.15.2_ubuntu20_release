@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/CMakeFiles/libgmp"
+		},
+		{
+			"file" : "/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/CMakeFiles/libgmp.rule"
+		},
+		{
+			"file" : "/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/CMakeFiles/libgmp-complete.rule"
+		},
+		{
+			"file" : "/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-install.rule"
+		},
+		{
+			"file" : "/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-mkdir.rule"
+		},
+		{
+			"file" : "/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-download.rule"
+		},
+		{
+			"file" : "/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-update.rule"
+		},
+		{
+			"file" : "/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-patch.rule"
+		},
+		{
+			"file" : "/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-configure.rule"
+		},
+		{
+			"file" : "/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libgmp"
+		],
+		"name" : "libgmp"
+	}
+}

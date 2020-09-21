@@ -1,0 +1,1 @@
+unused: /home/oceanfish81/workarea/llvm-project/llvm/tools/gollvm/gofrontend/libgo/go/crypto/ed25519/ed25519.go bytes.gox crypto/ed25519/internal/edwards25519.gox crypto.gox crypto/rand.gox crypto/sha512.gox errors.gox io.gox strconv.gox

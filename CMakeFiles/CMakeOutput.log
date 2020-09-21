@@ -1,0 +1,3054 @@
+The system is: Linux - 5.4.0-47-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/clang 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/3.18.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/clang++ 
+Build flags: ;-stdlib=libc++
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/3.18.2/CompilerIdCXX/a.out"
+
+Checking whether the ASM compiler is Clang using "--version" matched "(clang version)":
+clang version 11.0.0 (https://github.com/llvm/llvm-project.git 0160ad802e899c2922bc9b29564080c22eb0908c)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_2a453 && [1/2] Building C object CMakeFiles/cmTC_2a453.dir/CMakeCCompilerABI.c.o
+clang version 11.0.0 (https://github.com/llvm/llvm-project.git 0160ad802e899c2922bc9b29564080c22eb0908c)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/9
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/9
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/bin/clang-11" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/clang/11.0.0 -dependency-file CMakeFiles/cmTC_2a453.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_2a453.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /usr/lib/clang/11.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -faddrsig -o CMakeFiles/cmTC_2a453.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c
+clang -cc1 version 11.0.0 based upon LLVM 11.0.0 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/lib/clang/11.0.0/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+[2/2] Linking C executable cmTC_2a453
+clang version 11.0.0 (https://github.com/llvm/llvm-project.git 0160ad802e899c2922bc9b29564080c22eb0908c)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/9
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/9
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2a453 /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../lib64 -L/usr/bin/../lib/x86_64-linux-gnu -L/usr/bin/../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../.. -L/usr/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_2a453.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/include]
+    add: [/usr/lib/clang/11.0.0/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/clang/11.0.0/include] ==> [/usr/lib/clang/11.0.0/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/local/include;/usr/lib/clang/11.0.0/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/local/bin/ninja cmTC_2a453 && [1/2] Building C object CMakeFiles/cmTC_2a453.dir/CMakeCCompilerABI.c.o]
+  ignore line: [clang version 11.0.0 (https://github.com/llvm/llvm-project.git 0160ad802e899c2922bc9b29564080c22eb0908c)]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/bin]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/9]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/9]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ (in-process)]
+  ignore line: [ "/usr/bin/clang-11" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/clang/11.0.0 -dependency-file CMakeFiles/cmTC_2a453.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_2a453.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /usr/lib/clang/11.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -faddrsig -o CMakeFiles/cmTC_2a453.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 11.0.0 based upon LLVM 11.0.0 default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/clang/11.0.0/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable cmTC_2a453]
+  ignore line: [clang version 11.0.0 (https://github.com/llvm/llvm-project.git 0160ad802e899c2922bc9b29564080c22eb0908c)]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/bin]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/9]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/9]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2a453 /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../lib64 -L/usr/bin/../lib/x86_64-linux-gnu -L/usr/bin/../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../.. -L/usr/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_2a453.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_2a453] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtbegin.o] ==> ignore
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../lib64] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../lib64]
+    arg [-L/usr/bin/../lib/x86_64-linux-gnu] ==> dir [/usr/bin/../lib/x86_64-linux-gnu]
+    arg [-L/usr/bin/../lib64] ==> dir [/usr/bin/../lib64]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu/../../lib64] ==> dir [/usr/lib/x86_64-linux-gnu/../../lib64]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [-L/usr/bin/../lib] ==> dir [/usr/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_2a453.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtend.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/bin/../lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/bin/../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu/../../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/bin/../lib] ==> [/usr/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_edea7 && [1/2] Building CXX object CMakeFiles/cmTC_edea7.dir/CMakeCXXCompilerABI.cpp.o
+clang version 11.0.0 (https://github.com/llvm/llvm-project.git 0160ad802e899c2922bc9b29564080c22eb0908c)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/9
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/9
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/bin/clang-11" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/clang/11.0.0 -dependency-file CMakeFiles/cmTC_edea7.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_edea7.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../include/c++/v1 -internal-isystem /usr/local/include -internal-isystem /usr/lib/clang/11.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -o CMakeFiles/cmTC_edea7.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 11.0.0 based upon LLVM 11.0.0 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/bin/../include/c++/v1
+ /usr/local/include
+ /usr/lib/clang/11.0.0/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+[2/2] Linking CXX executable cmTC_edea7
+clang version 11.0.0 (https://github.com/llvm/llvm-project.git 0160ad802e899c2922bc9b29564080c22eb0908c)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/9
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/9
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_edea7 /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../lib64 -L/usr/bin/../lib/x86_64-linux-gnu -L/usr/bin/../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../.. -L/usr/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_edea7.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/bin/../include/c++/v1]
+    add: [/usr/local/include]
+    add: [/usr/lib/clang/11.0.0/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/bin/../include/c++/v1] ==> [/usr/include/c++/v1]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/clang/11.0.0/include] ==> [/usr/lib/clang/11.0.0/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/v1;/usr/local/include;/usr/lib/clang/11.0.0/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/local/bin/ninja cmTC_edea7 && [1/2] Building CXX object CMakeFiles/cmTC_edea7.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [clang version 11.0.0 (https://github.com/llvm/llvm-project.git 0160ad802e899c2922bc9b29564080c22eb0908c)]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/bin]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/9]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/9]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ (in-process)]
+  ignore line: [ "/usr/bin/clang-11" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/clang/11.0.0 -dependency-file CMakeFiles/cmTC_edea7.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_edea7.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../include/c++/v1 -internal-isystem /usr/local/include -internal-isystem /usr/lib/clang/11.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -o CMakeFiles/cmTC_edea7.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 11.0.0 based upon LLVM 11.0.0 default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/bin/../include/c++/v1]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/clang/11.0.0/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX executable cmTC_edea7]
+  ignore line: [clang version 11.0.0 (https://github.com/llvm/llvm-project.git 0160ad802e899c2922bc9b29564080c22eb0908c)]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/bin]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/9]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/9]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_edea7 /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../lib64 -L/usr/bin/../lib/x86_64-linux-gnu -L/usr/bin/../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../.. -L/usr/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_edea7.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_edea7] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtbegin.o] ==> ignore
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../lib64] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../lib64]
+    arg [-L/usr/bin/../lib/x86_64-linux-gnu] ==> dir [/usr/bin/../lib/x86_64-linux-gnu]
+    arg [-L/usr/bin/../lib64] ==> dir [/usr/bin/../lib64]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu/../../lib64] ==> dir [/usr/lib/x86_64-linux-gnu/../../lib64]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [-L/usr/bin/../lib] ==> dir [/usr/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_edea7.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtend.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/bin/../lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/bin/../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu/../../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/bin/../lib] ==> [/usr/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [c++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib;/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test LLVM_LIBSTDCXX_MIN succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_8eaab && [1/2] Building CXX object CMakeFiles/cmTC_8eaab.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_8eaab
+
+
+Source file was:
+
+#include <iosfwd>
+#if defined(__GLIBCXX__)
+#if __GLIBCXX__ < 20150422
+#error Unsupported libstdc++ version
+#endif
+#endif
+#if defined(__GLIBCXX__)
+extern const char _ZNKSt17bad_function_call4whatEv[];
+const char *chk = _ZNKSt17bad_function_call4whatEv;
+#else
+const char *chk = "";
+#endif
+int main() { ++chk; return 0; }
+
+Performing C++ SOURCE FILE Test LLVM_LIBSTDCXX_SOFT_ERROR succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_21636 && [1/2] Building CXX object CMakeFiles/cmTC_21636.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_21636
+
+
+Source file was:
+
+#include <iosfwd>
+#if defined(__GLIBCXX__)
+#if __GLIBCXX__ < 20150422
+#error Unsupported libstdc++ version
+#endif
+#endif
+#if defined(__GLIBCXX__)
+#include <ios>
+void foo(void) { (void) std::iostream_category(); }
+#endif
+int main() { return 0; }
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_991de && [1/2] Building C object CMakeFiles/cmTC_991de.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_991de
+
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_227f8 && [1/2] Building C object CMakeFiles/cmTC_227f8.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_227f8
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_764d6 && [1/2] Building C object CMakeFiles/cmTC_764d6.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_764d6
+
+
+
+Determining if the include file link.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_1a930 && [1/2] Building C object CMakeFiles/cmTC_1a930.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_1a930
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_8f9ec && [1/2] Building C object CMakeFiles/cmTC_8f9ec.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_8f9ec
+
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_b432e && [1/2] Building C object CMakeFiles/cmTC_b432e.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_b432e
+
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_32dac && [1/2] Building C object CMakeFiles/cmTC_32dac.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_32dac
+
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_ce544 && [1/2] Building C object CMakeFiles/cmTC_ce544.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_ce544
+
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_5c26e && [1/2] Building C object CMakeFiles/cmTC_5c26e.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_5c26e
+
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_bec00 && [1/2] Building C object CMakeFiles/cmTC_bec00.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_bec00
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_ff6a5 && [1/2] Building C object CMakeFiles/cmTC_ff6a5.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_ff6a5
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_e6b2b && [1/2] Building C object CMakeFiles/cmTC_e6b2b.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_e6b2b
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_fd333 && [1/2] Building C object CMakeFiles/cmTC_fd333.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_fd333
+
+
+
+Determining if the include file sysexits.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_1c9f3 && [1/2] Building C object CMakeFiles/cmTC_1c9f3.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_1c9f3
+
+
+
+Determining if the include file termios.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_e56b1 && [1/2] Building C object CMakeFiles/cmTC_e56b1.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_e56b1
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_5c999 && [1/2] Building C object CMakeFiles/cmTC_5c999.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_5c999
+
+
+
+Determining if the include file valgrind/valgrind.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_49dd4 && [1/2] Building C object CMakeFiles/cmTC_49dd4.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_49dd4
+
+
+
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_dbe65 && [1/2] Building C object CMakeFiles/cmTC_dbe65.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_dbe65
+
+
+
+Determining if the FE_ALL_EXCEPT exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_f9ebb && [1/2] Building C object CMakeFiles/cmTC_f9ebb.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f9ebb
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_ALL_EXCEPT
+  return ((int*)(&FE_ALL_EXCEPT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the FE_INEXACT exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_87573 && [1/2] Building C object CMakeFiles/cmTC_87573.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_87573
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_INEXACT
+  return ((int*)(&FE_INEXACT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file linux/magic.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_a0f89 && [1/2] Building C object CMakeFiles/cmTC_a0f89.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a0f89
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_52b8f && [1/2] Building C object CMakeFiles/cmTC_52b8f.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_52b8f
+
+
+
+Determining if the function pthread_getspecific exists in the pthread passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_f13da && [1/2] Building C object CMakeFiles/cmTC_f13da.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_f13da
+
+
+
+Determining if the function pthread_rwlock_init exists in the pthread passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_10fee && [1/2] Building C object CMakeFiles/cmTC_10fee.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_10fee
+
+
+
+Determining if the function pthread_mutex_lock exists in the pthread passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_518fe && [1/2] Building C object CMakeFiles/cmTC_518fe.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_518fe
+
+
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_f99b6 && [1/2] Building C object CMakeFiles/cmTC_f99b6.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_f99b6
+
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_4aa19 && [1/2] Building C object CMakeFiles/cmTC_4aa19.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_4aa19
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_be468 && [1/2] Building C object CMakeFiles/cmTC_be468.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_be468
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_b8bde && [1/2] Building C object CMakeFiles/cmTC_b8bde.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_b8bde
+
+
+
+Determining if the compress2 exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_51499 && [1/2] Building C object CMakeFiles/cmTC_51499.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_51499
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <zlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef compress2
+  return ((int*)(&compress2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the backtrace exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_47781 && [1/2] Building C object CMakeFiles/cmTC_47781.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_47781
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_9a5cc && [1/2] Building C object CMakeFiles/cmTC_9a5cc.dir/src.c.o
+[2/2] Linking C executable cmTC_9a5cc
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the _Unwind_Backtrace exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_bf11d && [1/2] Building C object CMakeFiles/cmTC_bf11d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_bf11d
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _Unwind_Backtrace
+  return ((int*)(&_Unwind_Backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpagesize exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_14170 && [1/2] Building C object CMakeFiles/cmTC_14170.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_14170
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysconf exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_8406e && [1/2] Building C object CMakeFiles/cmTC_8406e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8406e
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrusage exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_9d6c5 && [1/2] Building C object CMakeFiles/cmTC_9d6c5.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_9d6c5
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrusage
+  return ((int*)(&getrusage))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setrlimit exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_ebd3b && [1/2] Building C object CMakeFiles/cmTC_ebd3b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ebd3b
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isatty exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_31dc4 && [1/2] Building C object CMakeFiles/cmTC_31dc4.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_31dc4
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isatty
+  return ((int*)(&isatty))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimens exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_06fb4 && [1/2] Building C object CMakeFiles/cmTC_06fb4.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_06fb4
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimens
+  return ((int*)(&futimens))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimes exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_03c8e && [1/2] Building C object CMakeFiles/cmTC_03c8e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_03c8e
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimes
+  return ((int*)(&futimes))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the posix_fallocate exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_ef77f && [1/2] Building C object CMakeFiles/cmTC_ef77f.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ef77f
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_fallocate
+  return ((int*)(&posix_fallocate))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sigaltstack exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_ee55c && [1/2] Building C object CMakeFiles/cmTC_ee55c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ee55c
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaltstack
+  return ((int*)(&sigaltstack))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the lseek64 exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_1ba90 && [1/2] Building C object CMakeFiles/cmTC_1ba90.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_1ba90
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lseek64
+  return ((int*)(&lseek64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mallinfo exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_9780c && [1/2] Building C object CMakeFiles/cmTC_9780c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_9780c
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallinfo
+  return ((int*)(&mallinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrlimit exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_53df8 && [1/2] Building C object CMakeFiles/cmTC_53df8.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_53df8
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the posix_spawn exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_d7734 && [1/2] Building C object CMakeFiles/cmTC_d7734.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d7734
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <spawn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_spawn
+  return ((int*)(&posix_spawn))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pread exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_1a20f && [1/2] Building C object CMakeFiles/cmTC_1a20f.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_1a20f
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pread
+  return ((int*)(&pread))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sbrk exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_a6281 && [1/2] Building C object CMakeFiles/cmTC_a6281.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a6281
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sbrk
+  return ((int*)(&sbrk))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_73fc0 && [1/2] Building C object CMakeFiles/cmTC_73fc0.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_73fc0
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror_r exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_f6796 && [1/2] Building C object CMakeFiles/cmTC_f6796.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f6796
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setenv exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_6e748 && [1/2] Building C object CMakeFiles/cmTC_6e748.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_6e748
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the dlopen exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_051c1 && [1/2] Building C object CMakeFiles/cmTC_051c1.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_051c1
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_c4c51 && [1/2] Building C object CMakeFiles/cmTC_c4c51.dir/src.c.o
+[2/2] Linking C executable cmTC_c4c51
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_mtim.tv_nsec);
+  return 0;
+}
+
+Determining if the __GLIBC__ exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_95898 && [1/2] Building C object CMakeFiles/cmTC_95898.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_95898
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GLIBC__
+  return ((int*)(&__GLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pthread_getname_np exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_199c9 && [1/2] Building C object CMakeFiles/cmTC_199c9.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_199c9
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_getname_np
+  return ((int*)(&pthread_getname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pthread_setname_np exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_4b6b8 && [1/2] Building C object CMakeFiles/cmTC_4b6b8.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_4b6b8
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_setname_np
+  return ((int*)(&pthread_setname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_STD_IS_TRIVIALLY_COPYABLE succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_aa621 && [1/2] Building CXX object CMakeFiles/cmTC_aa621.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_aa621
+
+
+Source file was:
+
+#include <type_traits>
+struct T { int val; };
+static_assert(std::is_trivially_copyable<T>::value, "ok");
+int main() { return 0;}
+
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS_WITHOUT_LIB succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_32b6d && [1/2] Building CXX object CMakeFiles/cmTC_32b6d.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_32b6d
+
+
+Source file was:
+
+#include <atomic>
+std::atomic<int> x;
+std::atomic<short> y;
+std::atomic<char> z;
+int main() {
+  ++z;
+  ++y;
+  return ++x;
+}
+
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS64_WITHOUT_LIB succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_00bc8 && [1/2] Building CXX object CMakeFiles/cmTC_00bc8.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_00bc8
+
+
+Source file was:
+
+#include <atomic>
+#include <cstdint>
+std::atomic<uint64_t> x (0);
+int main() {
+  uint64_t i = x.load(std::memory_order_relaxed);
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test LLVM_HAS_ATOMICS succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_a1d74 && [1/2] Building CXX object CMakeFiles/cmTC_a1d74.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_a1d74
+
+
+Source file was:
+
+#ifdef _MSC_VER
+#include <windows.h>
+#endif
+int main() {
+#ifdef _MSC_VER
+        volatile LONG val = 1;
+        MemoryBarrier();
+        InterlockedCompareExchange(&val, 0, 1);
+        InterlockedIncrement(&val);
+        InterlockedDecrement(&val);
+#else
+        volatile unsigned long val = 1;
+        __sync_synchronize();
+        __sync_val_compare_and_swap(&val, 1, 0);
+        __sync_add_and_fetch(&val, 1);
+        __sync_sub_and_fetch(&val, 1);
+#endif
+        return 0;
+      }
+
+Performing C++ SOURCE FILE Test SUPPORTS_VARIADIC_MACROS_FLAG succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_a5694 && [1/2] Building CXX object CMakeFiles/cmTC_a5694.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_a5694
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SUPPORTS_GNU_ZERO_VARIADIC_MACRO_ARGUMENTS_FLAG succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_cabea && [1/2] Building CXX object CMakeFiles/cmTC_cabea.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_cabea
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_023bf && [1/2] Building C object CMakeFiles/cmTC_023bf.dir/src.c.o
+[2/2] Linking C executable cmTC_023bf
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_9d263 && [1/2] Building CXX object CMakeFiles/cmTC_9d263.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_9d263
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_09936 && [1/2] Building CXX object CMakeFiles/cmTC_09936.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_09936
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_bd3ab && [1/2] Building C object CMakeFiles/cmTC_bd3ab.dir/src.c.o
+[2/2] Linking C executable cmTC_bd3ab
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_d0a4e && [1/2] Building CXX object CMakeFiles/cmTC_d0a4e.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_d0a4e
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_7323a && [1/2] Building CXX object CMakeFiles/cmTC_7323a.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_7323a
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_e91fb && [1/2] Building CXX object CMakeFiles/cmTC_e91fb.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_e91fb
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_7f0cf && [1/2] Building C object CMakeFiles/cmTC_7f0cf.dir/src.c.o
+[2/2] Linking C executable cmTC_7f0cf
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_0666a && [1/2] Building CXX object CMakeFiles/cmTC_0666a.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_0666a
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_d9db9 && [1/2] Building C object CMakeFiles/cmTC_d9db9.dir/src.c.o
+[2/2] Linking C executable cmTC_d9db9
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_94ce2 && [1/2] Building CXX object CMakeFiles/cmTC_94ce2.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_94ce2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NOEXCEPT_TYPE_FLAG succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_f54ff && [1/2] Building CXX object CMakeFiles/cmTC_f54ff.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_f54ff
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_WONT_WARN_ON_FINAL_NONVIRTUALDTOR succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_887ac && [1/2] Building CXX object CMakeFiles/cmTC_887ac.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_887ac
+
+
+Source file was:
+class base {public: virtual void anchor();protected: ~base();};
+                               class derived final : public base { public: ~derived();};
+                               int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_db6d4 && [1/2] Building C object CMakeFiles/cmTC_db6d4.dir/src.c.o
+[2/2] Linking C executable cmTC_db6d4
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_7dfb2 && [1/2] Building CXX object CMakeFiles/cmTC_7dfb2.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_7dfb2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_SUGGEST_OVERRIDE_FLAG succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_0e683 && [1/2] Building CXX object CMakeFiles/cmTC_0e683.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_0e683
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_WSUGGEST_OVERRIDE_ALLOWS_ONLY_FINAL succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_0066a && [1/2] Building CXX object CMakeFiles/cmTC_0066a.dir/src.cxx.o
+src.cxx:1:7: warning: 'base' has virtual functions but non-virtual destructor [-Wnon-virtual-dtor]
+class base {public: virtual void anchor();};
+      ^
+src.cxx:2:38: warning: 'derived' has virtual functions but non-virtual destructor [-Wnon-virtual-dtor]
+                               class derived : base {public: void anchor() final;};
+                                     ^
+2 warnings generated.
+[2/2] Linking CXX executable cmTC_0066a
+
+
+Source file was:
+class base {public: virtual void anchor();};
+                               class derived : base {public: void anchor() final;};
+                               int main() { return 0; }
+Performing C SOURCE FILE Test C_WCOMMENT_ALLOWS_LINE_WRAP succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_6bf9b && [1/2] Building C object CMakeFiles/cmTC_6bf9b.dir/src.c.o
+[2/2] Linking C executable cmTC_6bf9b
+
+
+Source file was:
+// \
+//
+int main() {return 0;}
+Performing C SOURCE FILE Test C_SUPPORTS_STRING_CONVERSION_FLAG succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_901c0 && [1/2] Building C object CMakeFiles/cmTC_901c0.dir/src.c.o
+[2/2] Linking C executable cmTC_901c0
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_STRING_CONVERSION_FLAG succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_b4537 && [1/2] Building CXX object CMakeFiles/cmTC_b4537.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_b4537
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FNO_FUNCTION_SECTIONS succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_da190 && [1/2] Building C object CMakeFiles/cmTC_da190.dir/src.c.o
+[2/2] Linking C executable cmTC_da190
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FFUNCTION_SECTIONS succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_9a346 && [1/2] Building C object CMakeFiles/cmTC_9a346.dir/src.c.o
+[2/2] Linking C executable cmTC_9a346
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FFUNCTION_SECTIONS succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_d22b0 && [1/2] Building CXX object CMakeFiles/cmTC_d22b0.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_d22b0
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FDATA_SECTIONS succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_10d9d && [1/2] Building C object CMakeFiles/cmTC_10d9d.dir/src.c.o
+[2/2] Linking C executable cmTC_10d9d
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FDATA_SECTIONS succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_d3e98 && [1/2] Building CXX object CMakeFiles/cmTC_d3e98.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_d3e98
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_CF_PROTECTION_BRANCH succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_fb35b && [1/2] Building C object CMakeFiles/cmTC_fb35b.dir/src.c.o
+[2/2] Linking C executable cmTC_fb35b
+
+
+Source file was:
+#include<stdio.h>
+int main(){printf("hello");
+return 0;}
+Performing C SOURCE FILE Test SPLIT_STACK_FUNCTIONAL succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_17bd8 && [1/2] Building C object CMakeFiles/cmTC_17bd8.dir/src.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_17bd8
+
+
+Source file was:
+#include<stdio.h>
+int main(){printf("hello");
+return 0;}
+Performing C SOURCE FILE Test HAVE_ATOMIC_FUNCTIONS succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_28da0 && [1/2] Building C object CMakeFiles/cmTC_28da0.dir/src.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_28da0
+
+
+Source file was:
+
+int i;
+int main () {
+  __atomic_load_n (&i, __ATOMIC_ACQUIRE);
+  __atomic_store_n (&i, 1, __ATOMIC_RELEASE);
+  __atomic_add_fetch (&i, 1, __ATOMIC_SEQ_CST);
+ return 0;
+}
+
+Determining if the clock_gettime exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_2b343 && [1/2] Building C object CMakeFiles/cmTC_2b343.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_2b343
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef clock_gettime
+  return ((int*)(&clock_gettime))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strnlen exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_0b5d4 && [1/2] Building C object CMakeFiles/cmTC_0b5d4.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_0b5d4
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strnlen
+  return ((int*)(&strnlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the dl_iterate_phdr exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_caa54 && [1/2] Building C object CMakeFiles/cmTC_caa54.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_caa54
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <link.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dl_iterate_phdr
+  return ((int*)(&dl_iterate_phdr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fcntl exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_79e13 && [1/2] Building C object CMakeFiles/cmTC_79e13.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_79e13
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fcntl
+  return ((int*)(&fcntl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the lstat exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_2c432 && [1/2] Building C object CMakeFiles/cmTC_2c432.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_2c432
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lstat
+  return ((int*)(&lstat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the readlink exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_b8798 && [1/2] Building C object CMakeFiles/cmTC_b8798.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_b8798
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef readlink
+  return ((int*)(&readlink))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mmap exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_bc2e9 && [1/2] Building C object CMakeFiles/cmTC_bc2e9.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_bc2e9
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mmap
+  return ((int*)(&mmap))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the accept4 exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_a9d38 && [1/2] Building C object CMakeFiles/cmTC_a9d38.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_a9d38
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/socket.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef accept4
+  return ((int*)(&accept4))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the dup3 exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_44fb7 && [1/2] Building C object CMakeFiles/cmTC_44fb7.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_44fb7
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dup3
+  return ((int*)(&dup3))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the epoll_create1 exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_12450 && [1/2] Building C object CMakeFiles/cmTC_12450.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_12450
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/epoll.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef epoll_create1
+  return ((int*)(&epoll_create1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the faccessat exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_7a72b && [1/2] Building C object CMakeFiles/cmTC_7a72b.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_7a72b
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef faccessat
+  return ((int*)(&faccessat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fallocate exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_791be && [1/2] Building C object CMakeFiles/cmTC_791be.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_791be
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fallocate
+  return ((int*)(&fallocate))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fchmodat exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_6f013 && [1/2] Building C object CMakeFiles/cmTC_6f013.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_6f013
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fchmodat
+  return ((int*)(&fchmodat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fchownat exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_b6070 && [1/2] Building C object CMakeFiles/cmTC_b6070.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_b6070
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fchownat
+  return ((int*)(&fchownat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimesat exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_50922 && [1/2] Building C object CMakeFiles/cmTC_50922.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_50922
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimesat
+  return ((int*)(&futimesat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the inotify_add_watch exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_443ae && [1/2] Building C object CMakeFiles/cmTC_443ae.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_443ae
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/inotify.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inotify_add_watch
+  return ((int*)(&inotify_add_watch))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the inotify_init exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_2ea64 && [1/2] Building C object CMakeFiles/cmTC_2ea64.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_2ea64
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/inotify.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inotify_init
+  return ((int*)(&inotify_init))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the inotify_init1 exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_81a31 && [1/2] Building C object CMakeFiles/cmTC_81a31.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_81a31
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/inotify.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inotify_init1
+  return ((int*)(&inotify_init1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the inotify_rm_watch exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_12e78 && [1/2] Building C object CMakeFiles/cmTC_12e78.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_12e78
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/inotify.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inotify_rm_watch
+  return ((int*)(&inotify_rm_watch))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the listxattr exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_cd670 && [1/2] Building C object CMakeFiles/cmTC_cd670.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_cd670
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/xattr.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef listxattr
+  return ((int*)(&listxattr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mincore exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_10233 && [1/2] Building C object CMakeFiles/cmTC_10233.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_10233
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mincore
+  return ((int*)(&mincore))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mkdirat exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_fd75f && [1/2] Building C object CMakeFiles/cmTC_fd75f.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_fd75f
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mkdirat
+  return ((int*)(&mkdirat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the openat exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_9a3b0 && [1/2] Building C object CMakeFiles/cmTC_9a3b0.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_9a3b0
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef openat
+  return ((int*)(&openat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the removexattr exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_d26c3 && [1/2] Building C object CMakeFiles/cmTC_d26c3.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_d26c3
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/xattr.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef removexattr
+  return ((int*)(&removexattr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the renameat exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_37fdb && [1/2] Building C object CMakeFiles/cmTC_37fdb.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_37fdb
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef renameat
+  return ((int*)(&renameat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setxattr exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_f6037 && [1/2] Building C object CMakeFiles/cmTC_f6037.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_f6037
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/xattr.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setxattr
+  return ((int*)(&setxattr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the splice exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_a1d11 && [1/2] Building C object CMakeFiles/cmTC_a1d11.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_a1d11
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef splice
+  return ((int*)(&splice))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sync_file_range exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_4acf5 && [1/2] Building C object CMakeFiles/cmTC_4acf5.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_4acf5
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sync_file_range
+  return ((int*)(&sync_file_range))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the syscall exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_d5a07 && [1/2] Building C object CMakeFiles/cmTC_d5a07.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_d5a07
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef syscall
+  return ((int*)(&syscall))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the tee exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_ffe89 && [1/2] Building C object CMakeFiles/cmTC_ffe89.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_ffe89
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef tee
+  return ((int*)(&tee))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the unlinkat exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_1fec0 && [1/2] Building C object CMakeFiles/cmTC_1fec0.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_1fec0
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef unlinkat
+  return ((int*)(&unlinkat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the unsetenv exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_7d0f6 && [1/2] Building C object CMakeFiles/cmTC_7d0f6.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_7d0f6
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef unsetenv
+  return ((int*)(&unsetenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the unshare exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_5aee8 && [1/2] Building C object CMakeFiles/cmTC_5aee8.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_5aee8
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sched.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef unshare
+  return ((int*)(&unshare))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the utimensat exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_3cd8e && [1/2] Building C object CMakeFiles/cmTC_3cd8e.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_3cd8e
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef utimensat
+  return ((int*)(&utimensat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wait4 exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_2a582 && [1/2] Building C object CMakeFiles/cmTC_2a582.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_2a582
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/wait.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wait4
+  return ((int*)(&wait4))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the open64 exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_33afa && [1/2] Building C object CMakeFiles/cmTC_33afa.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_33afa
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef open64
+  return ((int*)(&open64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mknodat exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_fccac && [1/2] Building C object CMakeFiles/cmTC_fccac.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_fccac
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mknodat
+  return ((int*)(&mknodat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pipe2 exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_1f4f7 && [1/2] Building C object CMakeFiles/cmTC_1f4f7.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_1f4f7
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pipe2
+  return ((int*)(&pipe2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memmem exist passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_1e8ec && [1/2] Building C object CMakeFiles/cmTC_1e8ec.dir/CheckSymbolExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_1e8ec
+
+
+File /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memmem
+  return ((int*)(&memmem))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_aaf53 && [1/2] Building C object CMakeFiles/cmTC_aaf53.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_aaf53
+
+
+
+Determining if the include file linux/filter.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_e61ed && [1/2] Building C object CMakeFiles/cmTC_e61ed.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_e61ed
+
+
+
+Determining if the include file linux/fs.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_12ce4 && [1/2] Building C object CMakeFiles/cmTC_12ce4.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_12ce4
+
+
+
+Determining if the include file linux/if_addr.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_d333d && [1/2] Building C object CMakeFiles/cmTC_d333d.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_d333d
+
+
+
+Determining if the include file linux/if_ether.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_25a05 && [1/2] Building C object CMakeFiles/cmTC_25a05.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_25a05
+
+
+
+Determining if the include file linux/if_tun.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_72a80 && [1/2] Building C object CMakeFiles/cmTC_72a80.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_72a80
+
+
+
+Determining if the include file linux/netlink.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_50135 && [1/2] Building C object CMakeFiles/cmTC_50135.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_50135
+
+
+
+Determining if the include file linux/ptrace.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_87b99 && [1/2] Building C object CMakeFiles/cmTC_87b99.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_87b99
+
+
+
+Determining if the include file linux/reboot.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_2d31c && [1/2] Building C object CMakeFiles/cmTC_2d31c.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_2d31c
+
+
+
+Determining if the include file linux/rtnetlink.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_0eb35 && [1/2] Building C object CMakeFiles/cmTC_0eb35.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_0eb35
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_c93b7 && [1/2] Building C object CMakeFiles/cmTC_c93b7.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_c93b7
+
+
+
+Determining if the include file net/if.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_0b7e8 && [1/2] Building C object CMakeFiles/cmTC_0b7e8.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_0b7e8
+
+
+
+Determining if the include file net/if_arp.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_1ea10 && [1/2] Building C object CMakeFiles/cmTC_1ea10.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_1ea10
+
+
+
+Determining if the include file net/route.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_e0fbe && [1/2] Building C object CMakeFiles/cmTC_e0fbe.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_e0fbe
+
+
+
+Determining if the include file netinet/icmp6.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_69b8b && [1/2] Building C object CMakeFiles/cmTC_69b8b.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_69b8b
+
+
+
+Determining if the include file netinet/if_ether.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_dfe61 && [1/2] Building C object CMakeFiles/cmTC_dfe61.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_dfe61
+
+
+
+Determining if the include file netinet/in_systm.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_50b9e && [1/2] Building C object CMakeFiles/cmTC_50b9e.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_50b9e
+
+
+
+Determining if the include file netinet/ip.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_83e7f && [1/2] Building C object CMakeFiles/cmTC_83e7f.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_83e7f
+
+
+
+Determining if the include file netpacket/packet.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_38443 && [1/2] Building C object CMakeFiles/cmTC_38443.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_38443
+
+
+
+Determining if the include file sched.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_2f0b8 && [1/2] Building C object CMakeFiles/cmTC_2f0b8.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_2f0b8
+
+
+
+Determining if the include file semaphore.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_d38ae && [1/2] Building C object CMakeFiles/cmTC_d38ae.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_d38ae
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_210c2 && [1/2] Building C object CMakeFiles/cmTC_210c2.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_210c2
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_734ab && [1/2] Building C object CMakeFiles/cmTC_734ab.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_734ab
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_d0123 && [1/2] Building C object CMakeFiles/cmTC_d0123.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_d0123
+
+
+
+Determining if the include file sys/epoll.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_2ec53 && [1/2] Building C object CMakeFiles/cmTC_2ec53.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_2ec53
+
+
+
+Determining if the include file sys/file.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_ba25e && [1/2] Building C object CMakeFiles/cmTC_ba25e.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_ba25e
+
+
+
+Determining if the include file sys/inotify.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_0d51e && [1/2] Building C object CMakeFiles/cmTC_0d51e.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_0d51e
+
+
+
+Determining if the include file sys/mount.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_5968d && [1/2] Building C object CMakeFiles/cmTC_5968d.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_5968d
+
+
+
+Determining if the include file sys/prctl.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_71caa && [1/2] Building C object CMakeFiles/cmTC_71caa.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_71caa
+
+
+
+Determining if the include file sys/ptrace.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_626c8 && [1/2] Building C object CMakeFiles/cmTC_626c8.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_626c8
+
+
+
+Determining if the include file sys/select.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_af19a && [1/2] Building C object CMakeFiles/cmTC_af19a.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_af19a
+
+
+
+Determining if the include file sys/statfs.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_44c3f && [1/2] Building C object CMakeFiles/cmTC_44c3f.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_44c3f
+
+
+
+Determining if the include file sys/syscall.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_5f337 && [1/2] Building C object CMakeFiles/cmTC_5f337.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_5f337
+
+
+
+Determining if the include file sys/sysinfo.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_854e9 && [1/2] Building C object CMakeFiles/cmTC_854e9.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_854e9
+
+
+
+Determining if the include file sys/timex.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_d28b7 && [1/2] Building C object CMakeFiles/cmTC_d28b7.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_d28b7
+
+
+
+Determining if the include file sys/user.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_4cb32 && [1/2] Building C object CMakeFiles/cmTC_4cb32.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_4cb32
+
+
+
+Determining if the include file sys/utsname.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_3ccc1 && [1/2] Building C object CMakeFiles/cmTC_3ccc1.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_3ccc1
+
+
+
+Determining if the include file sys/vfs.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_593ef && [1/2] Building C object CMakeFiles/cmTC_593ef.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_593ef
+
+
+
+Determining if the include file syscall.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_3c6be && [1/2] Building C object CMakeFiles/cmTC_3c6be.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_3c6be
+
+
+
+Determining if the include file utime.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_b2c72 && [1/2] Building C object CMakeFiles/cmTC_b2c72.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_b2c72
+
+
+
+Determining if the function compress exists in the z passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_bb7a9 && [1/2] Building C object CMakeFiles/cmTC_bb7a9.dir/CheckFunctionExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_bb7a9
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_ead02 && [1/2] Building C object CMakeFiles/cmTC_ead02.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_ead02
+
+
+
+Determining size of double passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_65e33 && [1/2] Building C object CMakeFiles/cmTC_65e33.dir/SIZEOF_DOUBLE.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_65e33
+
+
+
+Determining size of long double passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_9f43e && [1/2] Building C object CMakeFiles/cmTC_9f43e.dir/HAVE_LONG_DOUBLE.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_9f43e
+
+
+
+Determining size of long double passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_6f9d0 && [1/2] Building C object CMakeFiles/cmTC_6f9d0.dir/SIZEOF_LONG_DOUBLE.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_6f9d0
+
+
+
+Determining size of void* passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_7f3b9 && [1/2] Building C object CMakeFiles/cmTC_7f3b9.dir/SIZEOF_VOID_P.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_7f3b9
+
+
+
+Determining if the include file alloca.h exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_bf347 && [1/2] Building C object CMakeFiles/cmTC_bf347.dir/CheckIncludeFile.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_bf347
+
+
+
+Determining if the function memcpy exists passed with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_359b8 && [1/2] Building C object CMakeFiles/cmTC_359b8.dir/CheckFunctionExists.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+/usr/share/cmake-3.18/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memcpy' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcpy
+                              ^
+/usr/share/cmake-3.18/Modules/CheckFunctionExists.c:7:3: note: 'memcpy' is a builtin with type 'void *(void *, const void *, unsigned long)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcpy
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_359b8
+
+
+
+Performing C SOURCE FILE Test HAVE_SYNC_BOOL_COMPARE_AND_SWAP_4 succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_11c51 && [1/2] Building C object CMakeFiles/cmTC_11c51.dir/src.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_11c51
+
+
+Source file was:
+int main(int argc, char **argv) { return __sync_bool_compare_and_swap(&argc, argc, -argc) ? 1 : 0; }
+
+Performing C SOURCE FILE Test HAVE_SYNC_BOOL_COMPARE_AND_SWAP_8 succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_b9220 && [1/2] Building C object CMakeFiles/cmTC_b9220.dir/src.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_b9220
+
+
+Source file was:
+#include <stdint.h>
+static uint64_t s;
+int main(int argc, char **argv) { return __sync_bool_compare_and_swap(&s, argc, -argc) ? 0 : 1; }
+
+Performing C SOURCE FILE Test HAVE_AS_X86_AES succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_261b5 && [1/2] Building C object CMakeFiles/cmTC_261b5.dir/src.c.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=gold' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_261b5
+
+
+Source file was:
+int main() { __asm__("aesenc %xmm0, %xmm1"); return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_STD_CXX11 succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_eeffa && [1/2] Building CXX object CMakeFiles/cmTC_eeffa.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_eeffa
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WALL succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_15fca && [1/2] Building CXX object CMakeFiles/cmTC_15fca.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_15fca
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WEXTRA succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_cb0d1 && [1/2] Building CXX object CMakeFiles/cmTC_cb0d1.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_cb0d1
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHADOW succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_743fa && [1/2] Building CXX object CMakeFiles/cmTC_743fa.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_743fa
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_93732 && [1/2] Building CXX object CMakeFiles/cmTC_93732.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_93732
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC_ERRORS succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_76f11 && [1/2] Building CXX object CMakeFiles/cmTC_76f11.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_76f11
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_cfd61 && [1/2] Building CXX object CMakeFiles/cmTC_cfd61.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_cfd61
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WFLOAT_EQUAL succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_36f65 && [1/2] Building CXX object CMakeFiles/cmTC_36f65.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_36f65
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_19231 && [1/2] Building CXX object CMakeFiles/cmTC_19231.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_19231
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FNO_EXCEPTIONS succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_c69ee && [1/2] Building CXX object CMakeFiles/cmTC_c69ee.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_c69ee
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_SUGGEST_OVERRIDE succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_a3661 && [1/2] Building CXX object CMakeFiles/cmTC_a3661.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_a3661
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_bf7d1 && [1/2] Building CXX object CMakeFiles/cmTC_bf7d1.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_bf7d1
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_a3609 && [1/2] Building CXX object CMakeFiles/cmTC_a3609.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_a3609
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_COVERAGE succeeded with the following output:
+Change Dir: /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_e3043 && [1/2] Building CXX object CMakeFiles/cmTC_e3043.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_e3043
+
+
+Source file was:
+int main() { return 0; }

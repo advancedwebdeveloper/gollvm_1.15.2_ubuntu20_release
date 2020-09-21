@@ -1,0 +1,1 @@
+unused: /home/oceanfish81/workarea/llvm-project/llvm/tools/gollvm/gofrontend/libgo/go/bufio/bufio.go /home/oceanfish81/workarea/llvm-project/llvm/tools/gollvm/gofrontend/libgo/go/bufio/scan.go bytes.gox errors.gox io.gox strings.gox unicode/utf8.gox

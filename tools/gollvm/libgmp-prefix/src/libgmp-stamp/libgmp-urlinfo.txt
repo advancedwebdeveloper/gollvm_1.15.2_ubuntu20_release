@@ -1,0 +1,3 @@
+repository='external project URL'
+module='ftp://ftp.gnu.org/gnu/gmp/gmp-6.1.0.tar.bz2'
+tag='MD5=86ee6e54ebfc4a90b643a65e402c4048'

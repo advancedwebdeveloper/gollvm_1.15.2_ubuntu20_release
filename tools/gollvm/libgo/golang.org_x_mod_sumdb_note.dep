@@ -1,0 +1,1 @@
+unused: /home/oceanfish81/workarea/llvm-project/llvm/tools/gollvm/gofrontend/libgo/go/golang.org/x/mod/sumdb/note/note.go bytes.gox crypto/sha256.gox encoding/base64.gox encoding/binary.gox errors.gox fmt.gox golang.org/x/crypto/ed25519.gox io.gox strconv.gox strings.gox unicode.gox unicode/utf8.gox

@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /usr/bin/clang  -I /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/libgo -L /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/libgo "$@"

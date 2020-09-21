@@ -1,0 +1,21 @@
+# Target labels
+ libmpfr
+# Source files and their labels
+/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/CMakeFiles/libmpfr
+/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/CMakeFiles/libmpfr.rule
+/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/CMakeFiles/libmpfr-complete.rule
+/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/libmpfr-prefix/src/libmpfr-stamp/libmpfr-install.rule
+/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/libmpfr-prefix/src/libmpfr-stamp/libmpfr-mkdir.rule
+/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/libmpfr-prefix/src/libmpfr-stamp/libmpfr-download.rule
+/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/libmpfr-prefix/src/libmpfr-stamp/libmpfr-update.rule
+/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/libmpfr-prefix/src/libmpfr-stamp/libmpfr-patch.rule
+/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/libmpfr-prefix/src/libmpfr-stamp/libmpfr-configure.rule
+/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/libmpfr-prefix/src/libmpfr-stamp/libmpfr-build.rule
+/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/CMakeFiles/libgmp-complete.rule
+/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-install.rule
+/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-mkdir.rule
+/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-download.rule
+/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-update.rule
+/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-patch.rule
+/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-configure.rule
+/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/libgmp-prefix/src/libgmp-stamp/libgmp-build.rule

@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/./bin/llvm-goc "$@" -I /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/libgo -L /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/libgo 
