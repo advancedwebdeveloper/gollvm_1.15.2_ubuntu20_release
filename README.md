@@ -1,6 +1,6 @@
 
 My tryout to build the current version of gollvm, using Clang 11 RC2 and CMake 3.18 (libc++)
-Go version is 1.15.2 (as for 21.09.2020).
+Go version is 1.15.2 (as for 22.09.2020).
 
 $ cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_FLAGS=' -stdlib=libc++ ' -DLLVM_TARGETS_TO_BUILD=X86 -G Ninja ../llvm-project/llvm
 
