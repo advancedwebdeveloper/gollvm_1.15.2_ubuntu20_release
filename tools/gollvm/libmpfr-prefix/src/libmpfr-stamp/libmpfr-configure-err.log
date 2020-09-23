@@ -1,0 +1,16 @@
+configure: WARNING: ==========================================================
+configure: WARNING: 'gmp.h' and 'libgmp' seem to have different versions or
+configure: WARNING: we cannot run a program linked with GMP (if you cannot
+configure: WARNING: see the version numbers above). A cause may be different
+configure: WARNING: GMP versions with different ABI's or the use of --with-gmp
+configure: WARNING: or --with-gmp-include with a system include directory
+configure: WARNING: (such as /usr/include or /usr/local/include).
+configure: WARNING: However since we can't use 'libtool' inside the configure,
+configure: WARNING: we can't be sure. See 'config.log' for details.
+configure: WARNING: CC="/usr/bin/clang"
+configure: WARNING: CFLAGS="-I/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/install/include -fPIC -DPIC"
+configure: WARNING: CPPFLAGS=" -I/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp/include"
+configure: WARNING: LDFLAGS="-L/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/install/lib -L/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp/lib"
+configure: WARNING: LIBS="-lgmp "
+configure: WARNING: Temporary LD_RUN_PATH was "/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp/lib".
+configure: WARNING: ==========================================================

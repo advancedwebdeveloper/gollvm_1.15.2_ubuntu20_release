@@ -1,0 +1,10 @@
+div.c:389:28: warning: bitwise negation of a boolean expression; did you mean logical negation? [-Wbool-operation]
+             inexact_re |= ~mpfr_zero_p (mpc_realref (res));
+                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                           !
+div.c:390:28: warning: bitwise negation of a boolean expression; did you mean logical negation? [-Wbool-operation]
+             inexact_im |= ~mpfr_zero_p (mpc_imagref (res));
+                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                           !
+2 warnings generated.
+ar: `u' modifier ignored since `D' is the default (see `U')

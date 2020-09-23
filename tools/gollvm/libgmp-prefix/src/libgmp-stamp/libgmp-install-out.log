@@ -1,0 +1,218 @@
+make  install-recursive
+make[1]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build'
+Making install in tests
+make[2]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests'
+Making install in .
+make[3]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests'
+make[4]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests'
+make[3]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests'
+Making install in devel
+make[3]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/devel'
+make[4]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/devel'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/devel'
+make[3]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/devel'
+Making install in mpn
+make[3]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/mpn'
+make[4]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/mpn'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/mpn'
+make[3]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/mpn'
+Making install in mpz
+make[3]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/mpz'
+make[4]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/mpz'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/mpz'
+make[3]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/mpz'
+Making install in mpq
+make[3]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/mpq'
+make[4]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/mpq'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/mpq'
+make[3]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/mpq'
+Making install in mpf
+make[3]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/mpf'
+make[4]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/mpf'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/mpf'
+make[3]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/mpf'
+Making install in rand
+make[3]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/rand'
+make[4]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/rand'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/rand'
+make[3]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/rand'
+Making install in misc
+make[3]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/misc'
+make[4]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/misc'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/misc'
+make[3]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/misc'
+Making install in cxx
+make[3]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/cxx'
+make[4]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/cxx'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/cxx'
+make[3]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests/cxx'
+make[2]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tests'
+Making install in mpn
+make[2]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/mpn'
+make[3]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/mpn'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/mpn'
+make[2]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/mpn'
+Making install in mpz
+make[2]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/mpz'
+make[3]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/mpz'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/mpz'
+make[2]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/mpz'
+Making install in mpq
+make[2]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/mpq'
+make[3]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/mpq'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/mpq'
+make[2]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/mpq'
+Making install in mpf
+make[2]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/mpf'
+make[3]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/mpf'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/mpf'
+make[2]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/mpf'
+Making install in printf
+make[2]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/printf'
+make[3]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/printf'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/printf'
+make[2]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/printf'
+Making install in scanf
+make[2]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/scanf'
+make[3]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/scanf'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/scanf'
+make[2]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/scanf'
+Making install in rand
+make[2]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/rand'
+make[3]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/rand'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/rand'
+make[2]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/rand'
+Making install in cxx
+make[2]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/cxx'
+make[3]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/cxx'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/cxx'
+make[2]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/cxx'
+Making install in demos
+make[2]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/demos'
+Making install in calc
+make[3]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/demos/calc'
+make  install-am
+make[4]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/demos/calc'
+make[5]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/demos/calc'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/demos/calc'
+make[4]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/demos/calc'
+make[3]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/demos/calc'
+Making install in expr
+make[3]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/demos/expr'
+make[4]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/demos/expr'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/demos/expr'
+make[3]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/demos/expr'
+make[3]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/demos'
+make[4]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/demos'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/demos'
+make[3]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/demos'
+make[2]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/demos'
+Making install in tune
+make[2]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tune'
+make[3]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tune'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tune'
+make[2]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/tune'
+Making install in doc
+make[2]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/doc'
+make[3]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/install/share/info'
+ /usr/bin/install -c -m 644 /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp/doc/gmp.info /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp/doc/gmp.info-1 /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp/doc/gmp.info-2 '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/install/share/info'
+ install-info --info-dir='/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/install/share/info' '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/install/share/info/gmp.info'
+make[3]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/doc'
+make[2]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build/doc'
+make[2]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build'
+make[3]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build'
+ /usr/bin/mkdir -p '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/install/lib'
+ /bin/bash ./libtool   --mode=install /usr/bin/install -c   libgmp.la '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/install/lib'
+libtool: install: /usr/bin/install -c .libs/libgmp.so.10.3.0 /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/install/lib/libgmp.so.10.3.0
+libtool: install: (cd /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/install/lib && { ln -s -f libgmp.so.10.3.0 libgmp.so.10 || { rm -f libgmp.so.10 && ln -s libgmp.so.10.3.0 libgmp.so.10; }; })
+libtool: install: (cd /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/install/lib && { ln -s -f libgmp.so.10.3.0 libgmp.so || { rm -f libgmp.so && ln -s libgmp.so.10.3.0 libgmp.so; }; })
+libtool: install: /usr/bin/install -c .libs/libgmp.lai /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/install/lib/libgmp.la
+libtool: install: /usr/bin/install -c .libs/libgmp.a /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/install/lib/libgmp.a
+libtool: install: chmod 644 /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/install/lib/libgmp.a
+libtool: install: ranlib /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/install/lib/libgmp.a
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/sbin" ldconfig -n /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/install/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/install/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /usr/bin/mkdir -p '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/install/include'
+ /usr/bin/install -c -m 644 gmp.h '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/install/include'
+make  install-data-hook
+make[4]: Entering directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build'
+
++-------------------------------------------------------------+
+| CAUTION:                                                    |
+|                                                             |
+| If you have not already run "make check", then we strongly  |
+| recommend you do so.                                        |
+|                                                             |
+| GMP has been carefully tested by its authors, but compilers |
+| are all too often released with serious bugs.  GMP tends to |
+| explore interesting corners in compilers and has hit bugs   |
+| on quite a few occasions.                                   |
+|                                                             |
++-------------------------------------------------------------+
+
+make[4]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build'
+make[3]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build'
+make[2]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build'
+make[1]: Leaving directory '/home/oceanfish81/workarea/gollvm_1.15.2_ubuntu20_release/tools/gollvm/external/gmp-build'
